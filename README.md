@@ -2,6 +2,9 @@
 This is an extension to Typesafe Config to allow for the loading of one or more Config objects from paths in Consul KV.  It is merely
 a convience to avoid having to have the command line installed and remembering to fetch the KV values to files before launching your app.
 
+
+*DISCLAIMER:  This is currently a MVP created purely to scratch an itch.  Pull requests are graciously accepted for features/bugs however* :wink: 
+
 # Usage
 ## Bootstrapping
 The information about how to connect to your Consul server is read from a bootrap *Config* object.  An example bootstrap
