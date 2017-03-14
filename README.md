@@ -39,7 +39,7 @@ Application integration follows the standard ConfigFactory approach:
 With Gradle
 
 ````bash
-$> gradle build
+$> gradlew build
 
 ````
 
